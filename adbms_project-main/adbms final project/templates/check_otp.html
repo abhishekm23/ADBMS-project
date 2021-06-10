@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='resources/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendors/css/normalize.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='vendors/css/Grid.css')}}">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <title>OTP</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="row">
+          <img src="../static/resources/img/logo.png" alt="logo-name" class="logo" >
+          <ul class="main-nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/stack">Stack</a></li>
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero-text-box-ano">
+      <div class="row">
+        		<form method="post" action="#" class="contact-form">
+        			<div class="row">
+        				<div class="col span-1-of-3">
+        					<label for="password">Enter OTP</label>
+        				</div>
+        				<div class="col span-2-of-3">
+        					<input type="text" name="user_otp" id="user_otp"  required>
+        				</div>
+        			</div>
+
+
+
+              <div class="row">
+        				<div class="col span-1-of-3">
+
+        				</div>
+        				<div class="col span-2-of-3">
+        					<input type="submit" name="submit_button" value="Verify"  class="btn btn-ghost" >
+        				</div>
+                <div class="col span-3-of-3">
+
+
+                </div>
+        			</div>
+
+              </div>
+      </header>
+
+
+
+  </body>
+</html>

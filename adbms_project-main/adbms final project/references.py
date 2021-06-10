@@ -1,0 +1,6 @@
+db_password='password'
+admin_email='your gmail id'
+admin_password='your password'
+account_sid='get yours'
+auth_token='get yours'
+from_phone='get yours'
